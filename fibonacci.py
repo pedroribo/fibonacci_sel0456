@@ -17,6 +17,6 @@ class fibonacci_number:
             self.n_ant = aux
             n += 1
 
-fib1 = fibonacci_number(5)
+fib1 = fibonacci_number(10)
 fib1.calc_fibo()
 print(fib1)
