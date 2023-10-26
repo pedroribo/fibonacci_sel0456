@@ -15,8 +15,8 @@ class fibonacci_number:
         n = 1
         while n < self.n_max:
             aux = self.n_current
-            self.n_current += self.n_ant
-            self_n_ant = aux # forcar erro
+            self.n_current += self_n_ant # forcar erro
+            self.n_ant = aux
             n += 1
 
 fib1 = fibonacci_number(10)
