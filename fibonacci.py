@@ -6,6 +6,8 @@ class fibonacci_number:
         if self.n_max < 1:
             self.n_current = 0
 
+    # O __repr__ serve para representar o print do objeto de uma forma mais organizada e
+    # mais inteligivel para nos humanos
     def __repr__(self):
         return f'Número {self.n_max} da sequência de Fibonacci: {self.n_current}'
 
@@ -14,7 +16,7 @@ class fibonacci_number:
         while n < self.n_max:
             aux = self.n_current
             self.n_current += self.n_ant
-            self.n_ant = aux
+            self_n_ant = aux # forcar erro
             n += 1
 
 fib1 = fibonacci_number(10)
